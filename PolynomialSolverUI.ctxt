@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PolynomialSolverUI
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=
+comment2.target=javafx.scene.layout.HBox\ createTickerContent()
+comment3.params=original
+comment3.target=javafx.scene.layout.HBox\ cloneHBox(javafx.scene.layout.HBox)
+comment4.params=node
+comment4.target=void\ applyGlassStyle(javafx.scene.layout.Region)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
