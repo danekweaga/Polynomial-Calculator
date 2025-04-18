@@ -1,2 +1,2 @@
 # Polynomial-Calculator
-A calculator that can solve cubic, quadratic and linear polynomial equation
+Currently building a polynomial calculator that can solve cubic, quadratic and linear polynomial equation
