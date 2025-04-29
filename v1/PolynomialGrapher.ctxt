@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PolynomialGrapher
+comment0.text=\r\n\ @title\ The\ PolynomialGrapher\ class.\r\n\ \r\n\ @author\ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n
+comment1.params=coefficients
+comment1.target=javafx.scene.Scene\ createGraphScene(double[])
+comment1.text=\r\n\ Method\ to\ create\ a\ scene\ that\ graphs\ a\ polynomial\ based\ on\ coefficients.\r\n\ @param\ coefficients\ The\ coefficients\ of\ the\ polynomial\ equation.\r\n\ @return\ The\ scene\ containing\ the\ graph.\r\n
+numComments=2

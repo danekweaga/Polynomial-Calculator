@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PolynomialCalculatorGUI
+comment0.text=\r\n\ @title\ The\ PolynomialCalculatorGUI\ class.\r\n\ \r\n\ @author\ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n\ @student\ ID\ \:\ 3781089\r\n
+comment1.params=owner
+comment1.target=javafx.scene.Scene\ buildGUI(javafx.stage.Stage)
+comment1.text=\r\n\ Method\ to\ build\ the\ graphical\ user\ interface\ for\ the\ polynomial\ calculator.\r\n\ \r\n\ @param\ owner\ The\ primary\ stage\ of\ the\ application.\r\n\ @return\ The\ scene\ containing\ the\ GUI\ components.\r\n
+comment2.params=prompt
+comment2.target=javafx.scene.control.TextField\ createStyledTextField(java.lang.String)
+comment2.text=\r\n\ Method\ to\ create\ a\ styled\ text\ field\ with\ a\ given\ prompt\ text.\r\n\ \r\n\ @param\ prompt\ The\ prompt\ text\ for\ the\ text\ field.\r\n\ @return\ The\ styled\ text\ field.\r\n
+comment3.params=text
+comment3.target=javafx.scene.control.Button\ createStyledButton(java.lang.String)
+comment3.text=\r\n\ Method\ to\ create\ a\ styled\ button\ with\ given\ text.\r\n\ \r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ button.\r\n\ @return\ The\ styled\ button.\r\n
+comment4.params=
+comment4.target=void\ solveEquation()
+comment4.text=\r\n\ Method\ to\ solve\ the\ polynomial\ equation\ entered\ by\ the\ user.\r\n
+comment5.params=
+comment5.target=void\ toggleGraph()
+comment5.text=\r\n\ Method\ to\ toggle\ the\ visibility\ of\ the\ polynomial\ graph.\r\n
+comment6.params=lhs\ rhs
+comment6.target=void\ updateGraph(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Method\ to\ update\ the\ polynomial\ graph\ with\ new\ equation\ coefficients.\r\n\ \r\n\ @param\ lhs\ The\ left-hand\ side\ of\ the\ equation.\r\n\ @param\ rhs\ The\ right-hand\ side\ of\ the\ equation.\r\n
+comment7.params=
+comment7.target=void\ clearFields()
+comment7.text=\r\n\ Method\ to\ clear\ the\ input\ fields\ and\ reset\ the\ result\ label.\r\n
+numComments=8

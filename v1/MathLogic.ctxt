@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MathLogic
+comment0.text=\r\n\ @\ title\ The\ MathLogic\ Class\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @\ author\ Chukwunonso\ Daniel\ Ekweaga\r\n\ @\ date\ 16/04/25\r\n
+comment1.params=polynomial
+comment1.target=double[]\ getCoef(java.lang.String)
+comment1.text=\r\n\ Method\ to\ extract\ coefficient\ from\ the\ string\r\n\ @description\ Extracts\ coefficients\ from\ a\ 3rd-degree\ polynomial\ expression\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ e.g.\ "2x^3\ +\ 3x^2\ -\ 5x\ +\ 7"\ ?\ [2,\ 3,\ -5,\ 7]\r\n\ \ \ \ \ \r\n\ @param\ polynomial\ \ \ \ \ The\ entire\ term\ string\ (e.g.\ "-3x^2")\r\n\ @return\ \ arr[]\ \ \ \ \ \ \ All\ the\ coefficients\ in\ an\ array\r\n
+comment2.params=term\ variable
+comment2.target=double\ extractCoefficient(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Method\ to\ extract\ coefficient\ from\ the\ variable\r\n\ \ \ \ \ \r\n\ @param\ term\ \ \ \ \ The\ entire\ term\ string\ (e.g.\ "-3x^2")\r\n\ @param\ variable\ The\ variable\ part\ (e.g.\ "x^2")\r\n\ @return\ \ \ \ \ \ \ \ \ The\ integer\ coefficient\r\n
+comment3.params=LHS\ RHS
+comment3.target=double[]\ formatEquation(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Method\ to\ create\ a\ proper\ equation\ equating\ to\ 0\ on\ right\ hand\ side\r\n\ \ \ \ \ \r\n\ @param\ polynomial\ \ \ \ The\ entire\ term\ string\ (e.g.\ "-3x^2")\r\n\ @return\ equationArr\ \ Properly\ formatted\ equation\r\n
+comment4.params=linEquation
+comment4.target=java.lang.String\ solveLinEq(double[])
+comment4.text=\r\n\ Method\ to\ print\ roots\ from\ a\ linear\ equation\r\n\ \r\n\ @param\ linEquation\ An\ array\ contain\ all\ the\ coefficients\ of\ the\ variable\ [x,\ constant]\r\n\ @return\ output\ A\ string\ containing\ the\ root\ of\ the\ linear\ equation\r\n
+comment5.params=quadEquation
+comment5.target=java.lang.String\ solveQuadEq(double[])
+comment5.text=\r\n\ Method\ to\ solve\ a\ quadratic\ equation\ ax\u00B2\ +\ bx\ +\ c\r\n\ \r\n\ @param\ quadEquation\ An\ array\ contain\ all\ the\ coefficients\ of\ the\ variable[x\u00B2,\ x,\ constant]\r\n\ @return\ output\ A\ string\ containing\ the\ roots\ of\ the\ quadratic\ equation\r\n
+comment6.params=cubEquation
+comment6.target=java.lang.String\ solveCubEq(double[])
+comment6.text=\r\n\ Method\ to\ solve\ a\ cubic\ equation\ ax\u00B3\ +\ bx\u00B2\ +\ cx\ +\ d\r\n\ \r\n\ @param\ cubEquation\ An\ array\ contain\ all\ the\ coefficients\ of\ the\ variable[x\u00B3,x\u00B2,\ x,\ constant]\r\n\ @return\ output\ A\ string\ containing\ the\ roots\ of\ the\ cubic\ equation\r\n
+comment7.params=LHS\ RHS
+comment7.target=java.lang.String\ solveAnyEquation(java.lang.String,\ java.lang.String)
+comment7.text=\r\n\ Step\ 8\:\ Method\ that\ chooses\ the\ correct\ solver\ based\ on\ the\ type\ of\ equation\r\n\ \r\n\ @param\ equation\ A\ String\ containing\ the\ equation\ \r\n\ @return\ A\ string\ containing\ the\ solution(s)\r\n
+numComments=8
