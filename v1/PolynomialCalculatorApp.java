@@ -8,7 +8,7 @@ public class PolynomialCalculatorApp extends Application
     public void start(Stage primaryStage) 
     {
         PolynomialCalculatorGUI gui = new PolynomialCalculatorGUI();
-        Scene scene = new Scene(gui);
+        Scene scene = gui.buildGUI(primaryStage);
 
         primaryStage.setScene(scene);
         primaryStage.setTitle("Polynomial Calculator");
