@@ -1,0 +1,15 @@
+HOW TO USE THIS APPLICATION
+
+1. Open the project in any Java IDE (e.g., IntelliJ, Eclipse, or BlueJ).
+2. Ensure JavaFX is correctly configured.
+3. Run `PolynomialCalculatorApp.java` as your main application file.
+
+USING THE CALCULATOR:
+- Enter the left-hand side and right-hand side of the equation (e.g., `2x^2 - 3x + 1` and `0`).
+- Click SOLVE to display the roots.
+- Click GRAPH to visualize the polynomial.
+- Click CLEAR to reset the fields.
+
+WHY '^' IS USED:
+- '^' stands for exponentiation (e.g., `x^2` means "x squared").
+- It is a common mathematical symbol used in programming and notation to indicate powers.
