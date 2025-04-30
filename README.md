@@ -1,38 +1,54 @@
 # Polynomial Calculator
 
-A modern JavaFX desktop application that solves and graphs polynomials of degree 1 (linear), degree 2 (quadratic), and degree 3 (cubic).
+A sleek, JavaFX-powered polynomial equation solver and grapher developed by **Chukwunonso Daniel Ekweaga**.
 
-It is designed with:
-- A dark-themed intuitive UI.
-- A simple number pad and operator buttons.
-- Graphing capabilities (for visualizing polynomials).
-- Clear and human-readable solution display.
+This calculator supports **linear**, **quadratic**, and **cubic** equations with a modern interface, keypad-only input, and dynamic graph rendering.
 
-## How It Works
-- Enter the left-hand side (LHS) and right-hand side (RHS) of the equation.
-- Press **SOLVE** to see the roots.
-- Press **GRAPH** to view the graph of the polynomial.
-- Press **CLEAR** to reset the fields.
+---
 
-> **Note:** Use `^` to indicate exponents. Example: Write `2x^3+3x^2-5x+7` for \(2x^3 + 3x^2 - 5x + 7\).
+## Features
 
-> The symbol `^` is used because it is the standard way to represent powers in plain text, where superscripts are not available.
+- **Dark-themed UI** with rounded corners and responsive button feedback.
+- **Custom number keypad** — no keyboard required.
+- **Switch Sides** — toggle between LHS and RHS input using a single button.
+- **Quick polynomial buttons** — insert `x`, `x²`, and `x³` with one tap.
+- **Graph viewer** — plot and visualize polynomial functions in a separate window.
+- **Image-based power button** — replaces traditional window controls for a sleek shutdown.
+- **Accurate math engine** — built on a reliable `MathLogic` class backend.
+
+---
+
+## How to Use
+
+1. Use the custom keypad to input both sides of your equation.
+2. Tap **Switch Side** to alternate between LHS and RHS input fields.
+3. Press `SOLVE` to compute the roots of the polynomial.
+4. Press `GRAPH` to open a visual graph viewer.
+5. Press `CLEAR` to reset both input fields and result display.
+6. Click the **power icon** to exit the app.
+
+> ℹ️ Equations must evaluate to 0. Example: `x^2 + 2x + 1 = 0`  
+> `^` means *raised to the power*, e.g., `x^2` = x²
+
+---
 
 ## Technologies Used
-- Java 21
-- JavaFX
 
-## File Structure
-- `MathLogic.java`: Handles parsing, formatting, and solving polynomials.
-- `PolynomialGrapher.java`: Handles graphing polynomials using JavaFX's LineChart.
-- `PolynomialCalculatorGUI.java`: The user interface layout and button actions.
-- `PolynomialCalculatorApp.java`: Launches the application.
-- `README.md`: Project description.
-- `HOW_TO_USE.txt`: Usage instructions.
-- `LICENSE`: Open-source license (MIT).
+- Java 17+
+- JavaFX 19+
+
+---
 
 ## License
-This project is licensed under the MIT License.
 
-## Author
-Built by Chukwunonso Daniel Ekweaga.
+© 2025 Chukwunonso Daniel Ekweaga  
+Licensed under the [MIT License](./LICENSE)
+
+---
+
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/82eadd79-fd92-4e12-9930-beb2926c78ba)![image](https://github.com/user-attachments/assets/aaee1cba-f526-48af-8065-8b5fd005f1c1)
+
+
+
