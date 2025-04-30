@@ -18,7 +18,15 @@ This calculator supports **linear**, **quadratic**, and **cubic** equations with
 
 ---
 
-## How to Use
+## 🚀 How to Run
+
+1. Open the project in any Java IDE (e.g., IntelliJ, Eclipse, or BlueJ).
+2. Ensure **JavaFX** is correctly configured.
+3. Set `PolynomialCalculatorApp.java` as the main class and run it.
+
+---
+
+## 🧮 How to Use
 
 1. Use the custom keypad to input both sides of your equation.
 2. Tap **Switch Side** to alternate between LHS and RHS input fields.
@@ -32,23 +40,21 @@ This calculator supports **linear**, **quadratic**, and **cubic** equations with
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - Java 17+
 - JavaFX 19+
 
 ---
 
-## License
+## 📄 License
 
 © 2025 Chukwunonso Daniel Ekweaga  
 Licensed under the [MIT License](./LICENSE)
 
 ---
 
-## Screenshot
+## 🖼 Screenshot
 
-![image](https://github.com/user-attachments/assets/82eadd79-fd92-4e12-9930-beb2926c78ba)![image](https://github.com/user-attachments/assets/aaee1cba-f526-48af-8065-8b5fd005f1c1)
-
-
-
+![image](https://github.com/user-attachments/assets/82eadd79-fd92-4e12-9930-beb2926c78ba)
+![image](https://github.com/user-attachments/assets/aaee1cba-f526-48af-8065-8b5fd005f1c1)
