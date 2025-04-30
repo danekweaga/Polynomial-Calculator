@@ -1,10 +1,3 @@
-/**********************************************************************************************************
- * @title The PolynomialCalculatorGUI class.
- *
- * @author Chukwunonso Daniel Ekweaga
- **********************************************************************************************************/
-
-// Required import statements
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -20,7 +13,14 @@ import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class PolynomialCalculatorGUI {
+/**********************************************************************************************************
+ * @title The PolynomialCalculatorGUI class.
+ *
+ * @author Chukwunonso Daniel Ekweaga
+ **********************************************************************************************************/
+
+public class PolynomialCalculatorGUI 
+{
     // Instance data
     private TextField lhsField;
     private TextField rhsField;
@@ -49,6 +49,7 @@ public class PolynomialCalculatorGUI {
 
     /**********************************************************************************************************
      * Method that builds and returns the main application scene with GUI components.
+     
      * @param owner - the primary stage (application window)
      * @return Scene - the constructed GUI scene
      **********************************************************************************************************/
@@ -159,7 +160,8 @@ public class PolynomialCalculatorGUI {
     }
 
     /**********************************************************************************************************
-     * Method that Creates a styled text field with a specified prompt.
+     * Method that creates a styled text field with a specified prompt.
+     
      * @param prompt - the hint text to display inside the field
      * @return TextField - styled input field
      **********************************************************************************************************/
@@ -175,6 +177,7 @@ public class PolynomialCalculatorGUI {
 
     /**********************************************************************************************************
      * Method that creates a function-style styled button.
+     
      * @param text - text to appear on button
      * @return Button - styled button
      **********************************************************************************************************/
@@ -188,6 +191,7 @@ public class PolynomialCalculatorGUI {
 
     /**********************************************************************************************************
      * Method thats adds pressed character to the appropriate text field
+    
      * @param value - character or symbol pressed
      **********************************************************************************************************/
     private void handleKeyPress(String value) 
