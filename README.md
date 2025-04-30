@@ -1,4 +1,4 @@
-# Polynomial Calculator
+#Polynomial Calculator
 
 A sleek, JavaFX-powered polynomial equation solver and grapher developed by **Chukwunonso Daniel Ekweaga**.
 
@@ -6,7 +6,7 @@ This calculator supports **linear**, **quadratic**, and **cubic** equations with
 
 ---
 
-##  Features
+## Features
 
 - **Dark-themed UI** with rounded corners and responsive button feedback.
 - **Custom number keypad** — no keyboard required.
@@ -18,9 +18,9 @@ This calculator supports **linear**, **quadratic**, and **cubic** equations with
 
 ---
 
-##  How to Run
+## How to Run
 
-### ✅ General (Any IDE)
+### General (Any IDE)
 1. Open the project in your Java IDE (e.g., IntelliJ, Eclipse, VS Code).
 2. Ensure **JavaFX** is properly set up (JavaFX SDK and VM options).
 3. Run `PolynomialCalculatorApp.java` as the main class.
@@ -47,26 +47,26 @@ This calculator supports **linear**, **quadratic**, and **cubic** equations with
 5. Press `CLEAR` to reset both input fields and result display.
 6. Click the **power icon** to exit the app.
 
-> ℹ️ Equations must evaluate to 0. Example: `x^2 + 2x + 1 = 0`  
+> Equations must evaluate to 0. Example: `x^2 + 2x + 1 = 0`  
 > `^` means *raised to the power*, e.g., `x^2` = x²
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Java 17+
 - JavaFX 19+
 
 ---
 
-## 📄 License
+## License
 
 © 2025 Chukwunonso Daniel Ekweaga  
 Licensed under the [MIT License](./LICENSE)
 
 ---
 
-## 🖼 Screenshot
+## Screenshots
 
 ![image](https://github.com/user-attachments/assets/82eadd79-fd92-4e12-9930-beb2926c78ba)  
 ![image](https://github.com/user-attachments/assets/aaee1cba-f526-48af-8065-8b5fd005f1c1)
