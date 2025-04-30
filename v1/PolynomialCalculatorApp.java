@@ -5,8 +5,9 @@ import javafx.stage.StageStyle;
 
 /**********************************************************************************************
  * @title PolynomialCalculatorApp
-
+ * @description Launches the polynomial calculator application.
  * @author Chukwunonso Daniel Ekweaga
+ * @date 2025
  **********************************************************************************************/
 public class PolynomialCalculatorApp extends Application 
 {
