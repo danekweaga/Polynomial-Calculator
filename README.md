@@ -1,4 +1,4 @@
-#Polynomial Calculator
+## Polynomial Calculator
 
 A sleek, JavaFX-powered polynomial equation solver and grapher developed by **Chukwunonso Daniel Ekweaga**.
 
